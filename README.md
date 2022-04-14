@@ -1,8 +1,8 @@
-# my_first_project
+# todolist
 
 ## Project setup
 ```
-npm install
+npm install --force
 ```
 
 ### Compiles and hot-reloads for development

@@ -18,6 +18,14 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
   },
+  {
+    path: '/todolist',
+    name: 'todolist',
+    // route level code-splitting
+    // this generates a separate chunk (todolist.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "todolist" */ '../views/ToDoListView.vue'),
+  },
 ];
 
 const router = new VueRouter({
